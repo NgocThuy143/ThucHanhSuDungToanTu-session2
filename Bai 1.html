@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1-Hien thi Diem TB va Tong diem</title>
+</head>
+<body>
+<script>
+    let inputHoaHoc;
+    let inputVatLy;
+    let inputSinhHoc;
+    inputHoaHoc = prompt("Nhap diem mon Hoa Hoc:")
+    inputVatLy = prompt("Nhap diem mon Vat Ly:")
+    inputSinhHoc = prompt("Nhap diem mon Sinh Hoc:")
+    let hoa = parseInt(inputHoaHoc);
+    let ly = parseInt(inputVatLy);
+    let sinh = parseInt(inputSinhHoc);
+    let Sum = hoa + ly + sinh;
+    let Ave = Sum/3;
+    document.write("Tong diem la:" + Sum);
+    document.write("Diem Trung binh la:" + Ave);
+
+</script>
+</body>
+</html>
